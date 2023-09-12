@@ -16,8 +16,6 @@ maquinavirtual/
 # Arquivos de configuração e de ambiente
 *.env
 .env
-config.py
-app.config
 # Logs e arquivos temporários
 *.log
 *.swp

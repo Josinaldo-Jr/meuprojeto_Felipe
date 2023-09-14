@@ -2,6 +2,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
 }
 
 
@@ -18,7 +20,7 @@ body {
 }
 
 header {
-    background-color: #555;
+    /* background-color: #555; */
     color: #fff;
     padding: 50px 0;
     text-align: center;
@@ -27,7 +29,7 @@ header {
 }
 
 nav {
-    background-color: #444;
+    /* background-color: #444; */
     padding: 20px 0;
     text-align: center;
 }
@@ -98,4 +100,19 @@ form {
     padding: 20px;
     flex-direction: column;
     gap: 20px;
+}
+
+.logo > a {
+    background: #f8f9fa;
+    font-size: 26px;
+    padding: 10px 15px;
+    border-radius: 100%;
+    text-decoration: none;
+    color: #333;
+}
+
+.logo > a:hover {
+    background: #555;
+    color: #f8f9fa;
+    text-decoration: none;
 }

@@ -15,7 +15,7 @@ Crie uma pasta para o seu projeto
 segundo passo: crie uma maquina virtual
 
 ```bash
-  py -3 -m venv nomedamaquinavirtual
+  py -3 -m venv venv
 ```    
 terceiro passo: ative a maquina virtual no windows
 

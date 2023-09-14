@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <header class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <header class="navbar navbar-expand-lg navbar-dark bg-dark base-header py-3">
 
       <section class="logo">
        <a href="https://github.com/riukos" target="_blank">FL</a>
@@ -32,7 +32,7 @@
             <li class="nav-item"><a class="nav-link text-white" href="/contact">Contatos</a></li>
             {% if session['email'] %}
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <a class="nav-link dropdown-toggle"  id="user" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Olá, {{ session['name'] }}
               </a>
 
@@ -55,8 +55,8 @@
             </li>
             
             {% else %}
-              <li class="nav-item"><a class="nav-link" href="/cadastro">Cadastre-se</a></li>
-              <li class="nav-item"><a class="nav-link" href="/login">Login</a></li>
+              <li class="nav-item"><a class="nav-link" id="user" href="/cadastro">Cadastre-se</a></li>
+              <li class="nav-item"><a class="nav-link"  id="user" href="/login">Login</a></li>
             {% endif %}
           </ul>
         </nav>

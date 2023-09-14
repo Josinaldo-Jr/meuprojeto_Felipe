@@ -6,26 +6,23 @@
     text-decoration: none;
 }
 
-
-
 body {
-    font-family: Arial, sans-serif;
+    font-family: helvetica, sans-serif;
     margin: 0;
     padding: 0;
-  height: 100vh;
+    height: 100vh;
 
-  display:flex;
-  flex-direction: column;
-  /* justify-content: space-between; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
 }
 
-header {
+.base-header {
     /* background-color: #555; */
     color: #fff;
-    padding: 50px 0;
+    /* padding: 50px 0; */
     text-align: center;
     /* margin-bottom: -70px; */
-    
 }
 
 nav {
@@ -35,7 +32,7 @@ nav {
 }
 
 nav a {
-    color: #fff;
+    color: red;
     text-decoration: none;
     padding: 10px 20px;
     margin: 0 5px;
@@ -43,7 +40,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #555;
+    background-color: #333;
 }
 
 section {
@@ -61,20 +58,23 @@ p {
     line-height: 1.6;
     color: #575555;
 }
+
 footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: #f8f9fa; /* Cor de fundo do footer */
+    background-color: #f8f9fa;
+    /* Cor de fundo do footer */
     text-align: center;
-    padding: 5px 0; /* Espaçamento interno do footer */
+    padding: 5px 0;
+    /* Espaçamento interno do footer */
 }
 
 main {
-min-height:500px;
+    min-height: 500px;
 }
 
-.conteudo{
+.conteudo {
     width: 40%;
     background: #555;
     margin: 10px auto;
@@ -83,7 +83,7 @@ min-height:500px;
     box-shadow: 0.5 0.5 rgba(109, 13, 13, 0.267);
 }
 
-.conteudo2{
+.conteudo2 {
     display: flex;
     width: 60%;
     background: #555;
@@ -102,17 +102,27 @@ form {
     gap: 20px;
 }
 
-.logo > a {
-    background: #f8f9fa;
+.logo>a {
+    background: #333;
     font-size: 26px;
     padding: 10px 15px;
     border-radius: 100%;
     text-decoration: none;
-    color: #333;
+    color: aquamarine;
+    box-shadow: aquamarine 1px 1px 1px 1px;
 }
 
-.logo > a:hover {
-    background: #555;
-    color: #f8f9fa;
+.logo>a:hover {
+    background: aquamarine;
+    color: #333;
     text-decoration: none;
+    box-shadow: #333 1px 1px 1px 1px;
+}
+
+#user {
+    color: aquamarine;
+}
+
+#user:hover {
+    color: #f8f9fa;
 }
